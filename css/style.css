@@ -10,6 +10,14 @@
   --gray1: #333;
   --gray2: #4f4f4f;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 
 span {
   color: var(--blue);
